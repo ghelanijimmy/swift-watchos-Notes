@@ -12,6 +12,7 @@
 		96E54A142ACC42D800DEA5CF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E54A132ACC42D800DEA5CF /* ContentView.swift */; };
 		96E54A162ACC42DC00DEA5CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96E54A152ACC42DC00DEA5CF /* Assets.xcassets */; };
 		96E54A192ACC42DC00DEA5CF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96E54A182ACC42DC00DEA5CF /* Preview Assets.xcassets */; };
+		96E54A262ACC444100DEA5CF /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E54A252ACC444100DEA5CF /* Note.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		96E54A132ACC42D800DEA5CF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		96E54A152ACC42DC00DEA5CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		96E54A182ACC42DC00DEA5CF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		96E54A252ACC444100DEA5CF /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,8 +80,9 @@
 		96E54A102ACC42D800DEA5CF /* Notes Watch App */ = {
 			isa = PBXGroup;
 			children = (
+				96E54A242ACC443000DEA5CF /* Model */,
 				96E54A112ACC42D800DEA5CF /* NotesApp.swift */,
-				96E54A132ACC42D800DEA5CF /* ContentView.swift */,
+				96E54A232ACC442500DEA5CF /* View */,
 				96E54A152ACC42DC00DEA5CF /* Assets.xcassets */,
 				96E54A172ACC42DC00DEA5CF /* Preview Content */,
 			);
@@ -92,6 +95,22 @@
 				96E54A182ACC42DC00DEA5CF /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		96E54A232ACC442500DEA5CF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				96E54A132ACC42D800DEA5CF /* ContentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		96E54A242ACC443000DEA5CF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				96E54A252ACC444100DEA5CF /* Note.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -194,6 +213,7 @@
 			files = (
 				96E54A142ACC42D800DEA5CF /* ContentView.swift in Sources */,
 				96E54A122ACC42D800DEA5CF /* NotesApp.swift in Sources */,
+				96E54A262ACC444100DEA5CF /* Note.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
